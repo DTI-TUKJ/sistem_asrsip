@@ -1,0 +1,12 @@
+ini adalah tes branch dev
+percobaan konflik di prod
+percobaan konflik di dev
+
+percobaan konflik ke 2, 2.2
+percobaan konflik ke 2, 2.1
+
+percobaan konflik ke 2, 2.3
+
+percobaan konflik le 2, 2.4
+
+tes ssh config

@@ -58,10 +58,10 @@ class Login extends BaseController
             }
         
         } else {
-              if ($this->request->getMethod() !== 'POST') {
-                // Jika jenis permintaan bukan POST, tampilkan pesan kesalahan atau lakukan tindakan yang sesuai
-                return $this->response->setStatusCode(405)->setBody('Method Not Allowed');
-            }
+            //   if ($this->request->getMethod() !== 'POST') {
+            //     // Jika jenis permintaan bukan POST, tampilkan pesan kesalahan atau lakukan tindakan yang sesuai
+            //     return $this->response->setStatusCode(405)->setBody('Method Not Allowed');
+            // }
             $this->validation->setRules([
 
                 'username' => [
