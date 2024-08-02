@@ -198,64 +198,22 @@
                         <a href="javascript: void(0)" onclick="showContent('/', event)" id='/'
                             class="pointer menu-clear"><i class="mdi mdi-monitor-dashboard"></i>Dashboards</a>
                     </li>
-                    <?php if(session()->type=='superadmin') {?>
-                    <li>
-                        <a href="javascript: void(0)" onclick="showContent('UserAdmin', event)"
-                            id='UserAdmin' class="pointer menu-clear"><i
-                                class="mdi dripicons-user-group pointer"></i><span>Users Admin</span></a>
-                    </li>
-                    <li>
-                        <a href="javascript: void(0)" onclick="showContent('DataEmployee', event)"
-                            id='DataEmployee' class="pointer menu-clear"><i
-                                class="mdi dripicons-user-id pointer"></i>Employee</a>
-                    </li>
-                    <?php } ?>
-                    <?php if (session()->type!='admin keuangan') { ?>
-                    <li>
-                        <a href="javascript: void(0)" id='Head' class="pointer head"><i class="mdi mdi-file-document"></i>Document<span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
-                                <ul class="nav-second-level" id="ParentMenuDoc" aria-expanded="false" style="padding:8px 10px 0px 25px;">
-                                    <li>
-                                        <a href="javascript: void(0); " id='SubHead' class="pointer sub" >
-                                            Honor TLH <span class="menu-arrow span-nav-scdn-lv left-has-menu" ><i class="mdi mdi-chevron-right"></i></span>
-                                        </a>
-                                        <ul class="nav-second-level mt-2" aria-expanded="false">
-                                            <li class="mb-1">
-                                                <a href="javascript: void(0)" class="pointer Doc" id='TaskList' onclick="showContent('TaskList', event)" >Task List</a></li>
-                                            <li class="mb-1">
-                                                <a href="javascript: void(0)" class="pointer Doc" onclick="showContent('Submission', event)"  id='Submission'>Generate Document</a></li>
-                                            <!-- <li class="mb-1"><a href="javascript: void(0)" class="pointer" id='Pengajuan'>Pengajuan</a></li> -->
-                                        </ul>
-
-                                    </li>
-                                    <!-- <li>
-                                        <a href="javascript: void(0); " id='SubHead' class="pointer sub" >
-                                            Honor TLH 2<span class="menu-arrow span-nav-scdn-lv left-has-menu" ><i class="mdi mdi-chevron-right"></i></span>
-                                        </a>
-                                        <ul class="nav-second-level mt-2" aria-expanded="false">
-                                            <li class="mb-1">
-                                                <a href="javascript: void(0)" class="pointer Doc" id='Disbursement' onclick="showContent('Disbursement', event)" >Absensi 2</a></li>
-                                           
-                                        </ul>
-
-                                    </li> -->
-                                </ul>
-                    </li>
                     
-                    <?php } ?>
-                    <li>
-                        <a href="javascript: void(0)" onclick="showContent('Verification', event)"
-                            id='Verification' class="pointer menu-clear"><i
-                                class="mdi mdi-clipboard-check pointer"></i>Verification</a>
-                    </li>
                     <!-- <li>
                         <a href="javascript: void(0)" onclick="showContent('Submission', event)"
                             id='Submission' class="pointer menu-clear"><i class="mdi mdi-file-send pointer"></i>Document
                             Submission</a>
                     </li> -->
                     <li>
-                        <a href="javascript: void(0)" onclick="showContent('Disbursement', event)"
-                            id='Disbursement' class="pointer menu-clear"><i
-                                class="mdi mdi-cash-multiple pointer"></i>Disbursement</a>
+                        <a href="javascript: void(0)" onclick="showContent('UserAdmin', event)"
+                            id='UserAdmin' class="pointer menu-clear"><i
+                                class="mdi mdi-account-multiple pointer"></i>User Management</a>
+                    </li>
+
+                    <li>
+                        <a href="javascript: void(0)" onclick="showContent('CategoryDoc', event)"
+                            id='CategoryDoc' class="pointer menu-clear"><i
+                                class="mdi mdi-file-cabinet pointer"></i>Category Document</a>
                     </li>
                     
 

@@ -8933,6 +8933,10 @@ span.badge-warning .pointer:hover {
   color: blue;
 }
 
+.none-view {
+  display: none;
+}
+
 /*  .span-icon:before{
     padding-top: 10px;
   }*/
